@@ -1,5 +1,6 @@
 %define		modname jabber
 Summary:	Drupal Jabber Authentication Module
+Summary(pl):	Modu³ uwierzytelnienia Jabbera dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.1
@@ -17,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_moddir		%{_drupaldir}/modules
 
 %description
+Drupal Jabber Authentication Module.
+
+%description -l pl
+Modu³ uwierzytelnienia Jabbera dla Drupala.
 
 %prep
 %setup -qcT
