@@ -10,7 +10,7 @@ Source0:	http://ejabberd.jabber.ru/files/site/jabber.module.txt
 # Source0-md5:	6e61b4734e521cbeb203825cf54fc5f2
 URL:		http://drupal.org/node/5076
 Requires:	drupal >= 4.6.0
-Requires:	php-xml
+Requires:	php(xml)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
