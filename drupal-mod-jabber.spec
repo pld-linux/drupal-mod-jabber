@@ -1,6 +1,6 @@
 %define		modname jabber
 Summary:	Drupal Jabber Authentication Module
-Summary(pl.UTF-8):   Moduł uwierzytelnienia Jabbera dla Drupala
+Summary(pl.UTF-8):	Moduł uwierzytelnienia Jabbera dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.1
